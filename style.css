@@ -1,19 +1,47 @@
 /* CSS RULES */
-body {
-    background-color: #c4c4c5;
-    font-family: Arial, Helvetica, sans-serif;
+html, body {
+    background-color: #0f2f4e;
+    font-family: robot;
+    height: 100%;
+    min-height: 100%;
+
     
 }
 
+h1.top {
+    text-align: center;
+    color: snow;
+    font-size: 4em;
+    letter-spacing: 0.3em;
+
+    
+}
+
+
+main {
+    background-color: white;
+    width: 90%;
+    margin: 0 auto;
+}
+
 #side-bar {
-    background-color: grey;
+    background-color: #23282c;
     color: lightgreen;
-    width: 20%;
+    width: 22%;
+    height: 100%;
+    text-align: right;
 
 }
 
+.list-view {
+    list-style: none;
+    line-height: 3em;
+    font-size: 2em;
+    /* color:#dcedf2 */
+}
+
 a:link, a:visited, a:active {
-    color: rgb(194, 193, 193);
+    color: #dcedf2;
     text-decoration: none;
     text-transform: uppercase;
     text-align: right;
@@ -22,20 +50,13 @@ a:link, a:visited, a:active {
 
 }
 
-a:hover {
+.list-view a:hover {
     color: #93f3f3;
     text-decoration: underline;
-    opacity: 1;
+
+    cursor: pointer;
 }
 
-#navi {
-
-}
-
-.list-view {
-
-}
-
-ul {
-    list-style-type: none;
+#section {
+    margin: 0 auto;
 }
