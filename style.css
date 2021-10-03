@@ -34,7 +34,7 @@ h4 {
 }
 
 .header-container {
-    width: 70%;
+    /* width: 100%; */
 }
 
 .h-text {
@@ -44,6 +44,14 @@ h4 {
     letter-spacing: 0.3em;
     padding: 0.5em;
 }
+
+.blink { 
+    animation: blink 1s step-end infinite; 
+}
+
+@keyframes blink {
+    67% { opacity: 0 }
+  }
 
 /* Placing images or logo on header */
 
@@ -55,7 +63,7 @@ h4 {
     width: 80px;
     height:100px;
     object-fit: scale-down;
-    border-radius: 50%;
+    border-radius: 100%;
     margin-right: 5em;
 }
 
@@ -63,25 +71,35 @@ h4 {
 
 #navi {
     margin: 0 auto;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    background-image:;
 }
 
 .list-view {
     list-style: none;
     display: inline-block;
+    border-radius: 60%;
+    padding: 1rem; 
+    border-right: 3px solid #00FF41;
+    border-left: 3px solid #00FF41; 
+
 }
 
 /* Pseudo */
 a:link, a:visited, a:active {
-    color: #162629;
+    color: #008F11;
     text-decoration: none;
     text-transform: uppercase;
     text-align: right;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.2em;
     font-weight: bold;
 }
 
-.list-view a:hover {
-    color: #d1d3d3;
+a:hover {
+    color: #00FF41;
+    text-shadow:0px 0px 30px #00FF41;
+    font-weight: bold;
     text-decoration: underline;
     cursor: pointer;
 }
@@ -102,8 +120,6 @@ main {
 }
 
 
-
-
 .portfolio {
     display: inline-block;
     float: left;
@@ -111,10 +127,10 @@ main {
 
 
 .portfoliotext {
-    background-color: white;
+    background-image: url(./images/);
     color: balck;
     letter-spacing: 0.5em;
-    font-family: robot;
+    font-family: 'Source Code Pro', monospace;
     font-weight: bold;
     font-size: 30px;
     padding: 5px;
