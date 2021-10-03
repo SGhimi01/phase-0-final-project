@@ -16,10 +16,27 @@ html, body {
 
 
 /* Header CSS Rules */
-.heading-container {
+.backImg {
+    width:100%;
+    height: 100vh;
+    background-image: url(./images/Laptop.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%; 
+}
+
+.backImg1 {
+    width:100%;
+    height: 100vh;
     background-image: url(./images/code.jpeg);
+    background-attachment: fixed;
+    background-size: 100% 100%; 
+}
+
+.top-container {
+    /* margin: 0; */
     width: 100%;
-    height: auto;
+    position: fixed;
+    top: 0;
 }
 
 /* heading rules applied */
@@ -46,6 +63,7 @@ h4 {
 
 blink { 
     animation: blink 1s ease infinite; 
+    color: #00FF41;
 }
 
 @keyframes blink {
@@ -69,19 +87,27 @@ blink {
 /* navigation button working with unorderedd lists and attributes */
 
 #navi {
+    width: 100%;
+    position: fixed;
+    top: 120px;
     margin: 0 auto;
     font-family: 'Source Code Pro', monospace;
     text-align: center;
     padding-top: 20px;
+    clear: both;
+    
 }
 
 .list-view {
     list-style: none;
+    background-color: white;
+
     display: inline-block;
-    border-radius: 60%;
+    border-radius: 50%;
     padding: 1rem; 
-    border-right: 3px solid #00FF41;
-    border-left: 3px solid #00FF41; 
+    /* border: 5px solid #00FF41; */
+    border-right: 5px solid #00FF41;
+    border-left: 5px solid #00FF41; 
 }
 
 
@@ -93,6 +119,7 @@ a:link, a:visited, a:active {
     text-align: right;
     letter-spacing: 0.2em;
     font-weight: bold;
+
 }
 
 a:hover {
@@ -114,8 +141,12 @@ main {
 }
 
 .container {
-    background-image: url(./images/);
-    background-repeat: no-repeat;
+    background-image: url(./images/Laptop.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;  
+    /* width: 100%; */
+    /* height: auto; */
+    width: 100%;
     
 }
 
@@ -127,12 +158,19 @@ main {
 
 
 .portfoliotext {
-    background-image: url(./images/);
-    color: balck;
+    margin: 0 auto;
+
+    color: orange;
     letter-spacing: 0.5em;
-    font-family: 'Source Code Pro', monospace;
+    font-family: robot;
     font-weight: bold;
     font-size: 30px;
     padding: 5px;
+    background-color: black; 
+    opacity: 0.7;
+    width: 100%;
 }
 
+.textp {
+    
+}
