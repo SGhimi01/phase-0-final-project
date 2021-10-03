@@ -1,11 +1,9 @@
 /* CSS RULES */
 
-/*  */
 * {
     margin: 0;
     padding: 0;
 }
-
 
 html, body {
     background-color: #white;
@@ -14,82 +12,39 @@ html, body {
     min-height: 100%;
 }
 
-/* Header CSS Rules */
 .heading-container {
     background-image: url(./images/code.jpeg);
-    width: 100%;
-    height: 120px;
-
-
 }
 
-/* heading rules applied */
-
-h1 {
-    font-size: 2em;
-}
-
-h4 {
-    font-size: 1em;
-}
-
-.header-container {
-    width: 70%;
-}
-
-.h-text {
+.top {
     text-align: center;
     color: white;
     font-variant: small-caps;
     letter-spacing: 0.3em;
-    padding: 0.5em;
+    padding: 10px;
+    opacity: .9;
 }
 
-/* Placing images or logo on header */
+.mypic {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    clear: both;
+    border-radius: 10px ;
 
-.mypic{
-    /* width: 30%; */
 }
-.mypic img {
-    float: right;
+
+img {
     width: 80px;
     height:100px;
     object-fit: scale-down;
-    border-radius: 50%;
-    margin-right: 5em;
-}
 
-/* navigation button working with unorderedd lists and attributes */
-
-#navi {
-    margin: 0 auto;
-}
-
-.list-view {
-    list-style: none;
-    display: inline-block;
-}
-
-/* Pseudo */
-a:link, a:visited, a:active {
-    color: #162629;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-align: right;
-    letter-spacing: 0.5em;
-    font-weight: bold;
-}
-
-.list-view a:hover {
-    color: #d1d3d3;
-    text-decoration: underline;
-    cursor: pointer;
 }
 
 
 
 main {
-    /* margin: 0 auto; */
+    margin: 0 auto%;
     /* clear: both; */
     width: 70%;
     padding: 40px;
@@ -101,8 +56,26 @@ main {
     
 }
 
+.list-view {
+    list-style: none;
 
+}
 
+.list-view a:link, a:visited, a:active {
+    color: #162629;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: right;
+    letter-spacing: 0.5em;
+    font-weight: bold;
+
+}
+
+.list-view a:hover {
+    color: #d1d3d3;
+    text-decoration: underline;
+    cursor: pointer;
+}
 
 .portfolio {
     display: inline-block;
