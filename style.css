@@ -45,12 +45,12 @@ h4 {
     padding: 0.5em;
 }
 
-.blink { 
-    animation: blink 1s step-end infinite; 
+blink { 
+    animation: blink 1s ease infinite; 
 }
 
 @keyframes blink {
-    67% { opacity: 0 }
+    100% { opacity: 0 }
   }
 
 /* Placing images or logo on header */
