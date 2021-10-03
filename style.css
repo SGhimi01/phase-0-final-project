@@ -14,13 +14,12 @@ html, body {
     min-height: 100%;
 }
 
+
 /* Header CSS Rules */
 .heading-container {
     background-image: url(./images/code.jpeg);
     width: 100%;
-    height: 120px;
-
-
+    height: auto;
 }
 
 /* heading rules applied */
@@ -73,7 +72,7 @@ blink {
     margin: 0 auto;
     font-family: 'Source Code Pro', monospace;
     text-align: center;
-    background-image:;
+    padding-top: 20px;
 }
 
 .list-view {
@@ -83,8 +82,8 @@ blink {
     padding: 1rem; 
     border-right: 3px solid #00FF41;
     border-left: 3px solid #00FF41; 
-
 }
+
 
 /* Pseudo */
 a:link, a:visited, a:active {
@@ -111,11 +110,12 @@ main {
     /* clear: both; */
     width: 70%;
     padding: 40px;
-    clear:left;
+    /* clear:left; */
 }
 
 .container {
-    display: flex;
+    background-image: url(./images/);
+    background-repeat: no-repeat;
     
 }
 
