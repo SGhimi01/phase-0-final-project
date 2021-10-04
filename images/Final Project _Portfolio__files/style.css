@@ -23,22 +23,20 @@ html, body {
     background-attachment: fixed;
     background-size: 100% 100%; 
 }
-/* 
+
 .backImg1 {
     width:100%;
     height: 100vh;
     background-image: url(./images/code.jpeg);
     background-attachment: fixed;
     background-size: 100% 100%; 
-} */
+}
 
 .top-container {
     /* margin: 0; */
     width: 100%;
     position: fixed;
     top: 0;
-    z-index: 5;
-    background-color: black;
 }
 
 /* heading rules applied */
@@ -97,7 +95,6 @@ blink {
     text-align: center;
     padding-top: 20px;
     clear: both;
-    z-index: 5;
     
 }
 
@@ -133,46 +130,67 @@ a:hover {
     cursor: pointer;
 }
 
-/* Main element class defined  */
+
+
+main {
+    /* margin: 0 auto; */
+    /* clear: both; */
+    width: 70%;
+    padding: 40px;
+    /* clear:left; */
+}
+
 .container {
     background-image: url(./images/Laptop.jpg);
     background-attachment: fixed;
     background-size: 100% 100%;  
-    margin: 0 auto;
-    padding: 20px;
-    width: 50%;
+    /* width: 100%; */
+    /* height: auto; */
+    /* width: 100%; */
     
-    position: absolute;
-    top: 100vh;
-    left: 400px;
 }
 
-.textp {
+main {
+    margin: 0 auto;
+    display: inline-block;
+    position: relative;
+    width: 80%;
+    /* top: 0; */
+    background-color:white;
+    /* opacity: 0.8; */
+}
+
+.portfolio {
+    display: inline-block;
+    float: left;
+}
+
+
+.portfoliotext {
+    margin: 0 auto;
+    width: 900px;
+    heigth:90px;
+
     color: white;
     letter-spacing: 0.5em;
     font-family: robot;
     font-weight: bold;
     font-size: 30px;
     padding: 5px;
-    float: left;
+    background-color: black; 
+    opacity: 0.7;
+    /* width: 100%; */
+}
 
+.profile_pic {
+    border: 10px solid white;
+    width: 100%
 }
 
 
 
-.profile-pic {
-    /* border: 10px solid black; */
-    float: right;
-    width: 80px;
-    height:100px;
-    object-fit: scale-down;
-    margin-right: 5em;
+main.profile_pic {
+    display: inline-block;
+    /* width: 5px; */
+    /* height: 5px; */
 }
-
-/* 
-.profile-pic img {
-    position: absolute;
-    top: 0;
-} */
-
-
