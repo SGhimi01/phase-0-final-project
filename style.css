@@ -190,4 +190,9 @@ img {
     display: inline-block;
     width: 30%;
     text-align: center;
-    }
+    border-left: 2px solid grey;
+}
+
+#abtme1 {
+    border-left: none;
+}
