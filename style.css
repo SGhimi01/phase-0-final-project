@@ -111,7 +111,7 @@ h4 {
 
 
 /* Pseudo */
-a:link, a:visited, a:active {
+.list-view a {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
@@ -121,7 +121,7 @@ a:link, a:visited, a:active {
 
 }
 
-a:hover {
+.list-view a:hover {
     color: #00FF41;
     text-shadow:0px 0px 30px white;
     font-weight: bold;
@@ -134,7 +134,28 @@ a:hover {
 .container {
     margin: 0 10vh;
     width: 60%;
+    float: left;
 }
+
+.social-icons {
+    width: 10%;
+    float: right;
+}
+
+a .icons {
+    width: 30%;
+    display: block;
+    margin: 20px;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+
+a .icons:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    border: 5px solid #00FF41;
+}
+
 
 .textp {
     color: white;
@@ -215,3 +236,6 @@ a:hover {
 #abtme1 {
     border-left: none;
 }
+
+
+/* Skills Added on footer */
