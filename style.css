@@ -67,6 +67,7 @@ h4 {
     object-fit: scale-down;
     border-radius: 100%;
     margin-right: 5em;
+    filter: grayscale(80%);
 }
 
 /* navigation button working with unorderedd lists and attributes */
@@ -123,23 +124,21 @@ h4 {
 /* Main element class defined  */
 
 .container {
-    margin: 20vh 10vh;
+    margin: 10vh 10vh;
     width: 60%;
     float: left;
 }
 
 .social-icons {
-    margin: 20vh 10vh;
-    width: 10%;
-    float: right;
+    margin: 0 20%;
 }
 
+
 a .icons {
-    width: 30%;
-    display: block;
-    margin: 20px;
+    margin: 30px;
     border: 4px solid white;
     border-radius: 50%;
+    width: 10%;
 }
 
 a .icons:hover {
@@ -156,7 +155,7 @@ a .icons:hover {
     font-weight: bold;
     font-size: 2em;
     padding: 5px;
-    float: right;
+
 }
 
 .hi {
@@ -167,6 +166,9 @@ a .icons:hover {
 @keyframes blink {
     100% { opacity: 0 }
   }
+
+
+
 
 /* Social Icons sidebar */
 
@@ -215,7 +217,6 @@ a .icons:hover {
 
 /* 3 Divs created  */
 .abtme {
-    display: inline-block;
     padding: 15px;
     text-align: center;
     border-left: 2px solid white;
@@ -229,5 +230,20 @@ a .icons:hover {
     border-left: none;
 }
 
-
+.abt-section {
+    display: flex;
+}
 /* Skills Added on footer */
+
+@media only screen and (max-width: 600px){
+    div.textp h1 {
+        font-size: 1em;
+    }
+    div.textp h2 {
+        font-size: 0.5em;
+    } 
+    div.textp {
+        float: none;
+        padding: 0;
+    }
+}
